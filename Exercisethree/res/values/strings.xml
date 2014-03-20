@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exercisethree</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome dear user\r\nTry writing something</string>
+    <string name="hint">Write a word</string>
+    <string name="hintforsite">Write a siteaddress</string>
+    <string name="buttontext">Push the button!</string>
+    <string name="pressforwebsite">Show the webpage!</string>
+    <string name="logo">Logo</string>
+    <string name="guide">Guidance</string>
+    <string name="tool">Setting</string>
+    <string name="psswrd">Enter password!</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity" >
+    
+    <ImageView 
+        android:id="@+id/antpicture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ant"
+    	android:contentDescription="@string/logo"  />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/antpicture"
+        android:text="@string/welcome" />
+
+    <EditText
+        android:id="@+id/textfield"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:hint="@string/hint" />
+    
+    <EditText
+        android:id="@+id/psswrd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@+id/textfield"
+        android:hint="@string/psswrd"/>
+    
+    <Button
+        android:id="@+id/changebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/psswrd"
+        android:text="@string/buttontext" />
+    
+    <EditText 
+        android:id="@+id/webfield"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/changebutton"
+        android:hint="@string/hintforsite" />
+    
+    <Button 
+        android:id="@+id/sitebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/webfield"
+        android:hint="@string/pressforwebsite" />
+    
+
+</RelativeLayout>
